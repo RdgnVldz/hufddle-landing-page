@@ -1,0 +1,101 @@
+.huddle__landing-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 3rem;
+    min-height: 100vh;
+    font-family: var(--font-heading);
+}
+
+.huddle__landing-header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.huddle__landing-header_nav-tryit button{
+    padding: .7rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--primary-pink);
+    background: transparent;
+    font-size: 1rem;
+    color: var(--primary-pink);
+    cursor: pointer;
+}
+
+.huddle__landing-header_content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.huddle__landing-header_content h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: var(--neutral-dark-cryan);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.huddle__landing-header_content p{
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+    width: 700px;
+    color: var( --neutral-dark-cryan);
+}
+
+.huddle__landing-header_content button{
+    padding: 1.5rem 6rem;
+    border: none;
+    background: var(--primary-pink);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 500px){
+    .huddle__landing-header{
+        padding: 0 1rem;
+    }
+    .huddle__landing-header_nav-logo img{
+        width: 140px;
+        margin-top: 7px;
+    }
+
+    .huddle__landing-header_nav-tryit button {
+        padding: 0.5rem 1rem;
+    }
+
+    .huddle__landing-header_content{
+        width: 100%;
+    }
+
+    .huddle__landing-header_content p {
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+    .huddle__landing-header_content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .huddle__landing-header_content button{
+        padding: 1.5rem 3rem;
+    }    
+
+    .huddle__landing-header_mockups img{
+        width: 350px;
+    }
+}

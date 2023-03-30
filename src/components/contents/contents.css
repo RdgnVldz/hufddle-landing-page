@@ -1,0 +1,266 @@
+.huddle__landing-contents{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-body);
+}
+
+.huddle__landing-contents_number{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	width: 100%;
+}
+
+.huddle__landing-contents_number-communities{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.huddle__landing-contents_number-messages{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.huddle__landing-contents_number-communities img,
+.huddle__landing-contents_number-messages img{
+	width: 40px;
+	margin-left: -11rem;
+}
+
+.huddle__landing-contents_number-communities h2,
+.huddle__landing-contents_number-messages h2{
+	font-size: 5rem;
+	margin: 0rem 0rem 1rem 0rem;
+	color: var(--neutral-dark-cryan);
+	font-weight: 700;
+}
+
+.huddle__landing-contents_number-communities p,
+.huddle__landing-contents_number-messages p{
+	font-size: 20px;
+	color: gray;
+	font-weight: 500;
+}
+
+.huddle__landing-contents-your_users,
+.huddle__landing-contents-grow_together{
+	padding: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 98.5vw;
+	background-color: #F6FBFF;
+  	height: 80vh;
+  	gap: 3rem;
+
+}
+
+.huddle__landing-contents-your_users-grow,
+.huddle__landing-contents-flowing_conver-grow,
+.huddle__landing-contents-grow_together-grow{
+	padding: 3rem 2rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+	line-height: 1.5rem;
+	font-family: var(--font-heading);
+	color: var(--neutral-dark-cryan);
+}
+
+.huddle__landing-contents-flowing_conver{
+	padding: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+  	height: 100vh;
+  	gap: 3rem;
+}
+
+.huddle__landing-contents-your_users-grow h2,
+.huddle__landing-contents-flowing_conver-grow h2,
+.huddle__landing-contents-grow_together-grow h2{
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+.huddle__landing-contents-your_users-grow p,
+.huddle__landing-contents-flowing_conver-grow p,
+.huddle__landing-contents-grow_together-grow p{
+	font-size: 15px;
+}
+
+.huddle__landing-contents-your_users-image,
+.huddle__landing-contents-flowing_conver-image,
+.huddle__landing-contents-grow_together-image{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.huddle__landing-contents-flowing_conver-image{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.huddle__landing-contents-your_users-image img,
+.huddle__landing-contents-flowing_conver-image img,
+.huddle__landing-contents-grow_together-image img{
+	width: 100%;
+}
+
+.huddle__landing-contents-background{
+	width: 98.5vw;
+	height: 20vh;
+}
+
+.top2__background{
+	background-image: url("../../assets/bg-section-top-desktop-2.svg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.bottom2__background{
+	background-image: url("../../assets/bg-section-bottom-desktop-2.svg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.top1__background{
+	background-image: url("../../assets/bg-section-top-desktop-1.svg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.bottom1__background{
+	background-image: url("../../assets/bg-section-bottom-desktop-1.svg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.huddle__landing-contents-ready_build{
+	width: 100%;
+	height: 55vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.huddle__landing-contents-ready_build-title h1{
+	font-weight: 700;
+	font-size: 2.5rem;
+	color: var(--neutral-dark-cryan);
+	font-family: var(--font-heading);
+}
+
+.huddle__landing-contents-ready_build-button button{
+	height: 4.8rem;
+	width: 400px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: var(--neutral-pale-blue);
+	border: none;
+	background: var(--primary-pink);
+	border-radius: 50px;
+	box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 500px){
+	.huddle__landing-contents_number{
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.huddle__landing-contents-your_users, 
+	.huddle__landing-contents-grow_together {
+	    padding: 1rem;
+	    display: flex;
+	    flex-direction: column-reverse;
+	     justify-content: space-evenly; 
+	    /* align-items: center; */
+	    height: 100vh;
+	    gap: 0rem;
+	}
+	.huddle__landing-contents-your_users-grow h2, 
+	.huddle__landing-contents-flowing_conver-grow h2, 
+	.huddle__landing-contents-grow_together-grow h2 {
+	    font-size: 1.5rem;
+	    text-align: center;
+	}
+
+	.huddle__landing-contents-your_users-grow p, 
+	.huddle__landing-contents-flowing_conver-grow p, 
+	.huddle__landing-contents-grow_together-grow p {
+	    text-align: center;
+	}
+
+	.huddle__landing-contents-your_users-grow, 
+	.huddle__landing-contents-flowing_conver-grow, 
+	.huddle__landing-contents-grow_together-grow {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.huddle__landing-contents-flowing_conver {
+	    padding: 1rem;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-evenly;
+	    gap: 0rem;
+	}
+
+	.huddle__landing-contents-ready_build-title h1 {
+	    font-size: 2rem;
+	    text-align: center;
+	}
+
+	.huddle__landing-contents-ready_build {
+	    height: 70vh;
+	    gap: 0;
+	}
+
+	.huddle__landing-contents-ready_build-button button {
+	    height: 3.5rem;
+	    font-size: 1.1rem;
+	    width: 270px;
+	}
+
+	.top2__background{
+		background-image: url("../../assets/bg-section-top-mobile-2.svg");
+	}
+
+	.bottom2__background{
+		background-image: url("../../assets/bg-section-bottom-mobile-2.svg");
+	}
+
+	.top1__background{
+		background-image: url("../../assets/bg-section-top-mobile-1.svg");
+	}
+
+	.bottom1__background{
+		background-image: url("../../assets/bg-section-bottom-mobile-1.svg");
+	}
+}
