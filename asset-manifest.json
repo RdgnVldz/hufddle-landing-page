@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/hufddle-landing-page/static/css/main.5e1284c6.css",
+    "main.js": "/hufddle-landing-page/static/js/main.211273dd.js",
+    "static/media/illustration-flowing-conversation.svg": "/hufddle-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047e609cbf11004.svg",
+    "static/media/illustration-your-users.svg": "/hufddle-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa41ee62081bcac.svg",
+    "static/media/illustration-grow-together.svg": "/hufddle-landing-page/static/media/illustration-grow-together.3c29212c7a9ccd6cccf0412e4b520833.svg",
+    "static/media/logo.svg": "/hufddle-landing-page/static/media/logo.3c5a854404daac9e68209a04cf4dfbbe.svg",
+    "static/media/screen-mockups.svg": "/hufddle-landing-page/static/media/screen-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
+    "static/media/icon-communities.svg": "/hufddle-landing-page/static/media/icon-communities.e889ff65d255a5e94c8edc7eaa66e423.svg",
+    "static/media/icon-messages.svg": "/hufddle-landing-page/static/media/icon-messages.a93f061b7c60758bb4ba41887ad0ff20.svg",
+    "index.html": "/hufddle-landing-page/index.html",
+    "static/media/bg-section-bottom-desktop-2.svg": "/hufddle-landing-page/static/media/bg-section-bottom-desktop-2.d3aceda96f2c01c6bbab.svg",
+    "static/media/bg-section-top-desktop-2.svg": "/hufddle-landing-page/static/media/bg-section-top-desktop-2.56f9794a3f455baf1f9f.svg",
+    "static/media/bg-section-top-mobile-2.svg": "/hufddle-landing-page/static/media/bg-section-top-mobile-2.04599e2ef6291d5d27e7.svg",
+    "static/media/bg-section-bottom-desktop-1.svg": "/hufddle-landing-page/static/media/bg-section-bottom-desktop-1.749314bcb6b45ecfe1ff.svg",
+    "static/media/bg-section-bottom-mobile-2.svg": "/hufddle-landing-page/static/media/bg-section-bottom-mobile-2.02fe54b760430a641819.svg",
+    "static/media/bg-section-top-desktop-1.svg": "/hufddle-landing-page/static/media/bg-section-top-desktop-1.d6d9d44b00bbb80d5065.svg",
+    "static/media/bg-section-top-mobile-1.svg": "/hufddle-landing-page/static/media/bg-section-top-mobile-1.2c00de768d6a3f0aff63.svg",
+    "static/media/bg-section-bottom-mobile-1.svg": "/hufddle-landing-page/static/media/bg-section-bottom-mobile-1.140d382c122e27b21f84.svg",
+    "static/media/bg-footer-top-desktop.svg": "/hufddle-landing-page/static/media/bg-footer-top-desktop.8c0b6c1db046eed123c2.svg",
+    "static/media/icon-phone.svg": "/hufddle-landing-page/static/media/icon-phone.b85572680e531bcb351c52500ab98420.svg",
+    "static/media/bg-footer-top-mobile.svg": "/hufddle-landing-page/static/media/bg-footer-top-mobile.c940267b0f9e81dab354.svg",
+    "static/media/icon-email.svg": "/hufddle-landing-page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
+    "main.5e1284c6.css.map": "/hufddle-landing-page/static/css/main.5e1284c6.css.map",
+    "main.211273dd.js.map": "/hufddle-landing-page/static/js/main.211273dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1284c6.css",
+    "static/js/main.211273dd.js"
+  ]
+}
